@@ -25,3 +25,7 @@ versão 0.4 {
   Estou buscando formas de reutilizar os estilos pra ter menos trabalho.
   Mexi um pouco no JS do projeto. e to pensando como vai ser o perfil do user.
 }
+
+versão 0.5 {
+  Hoje eu terminei todas as tabelas e fiz o perfil user( ainda está inacabado ).
+}
