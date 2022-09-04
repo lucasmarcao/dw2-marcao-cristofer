@@ -28,4 +28,5 @@ versão 0.4 {
 
 versão 0.5 {
   Hoje eu terminei todas as tabelas e fiz o perfil user( ainda está inacabado ).
+  Vou arrumar a responsividade de algumas paginas.
 }

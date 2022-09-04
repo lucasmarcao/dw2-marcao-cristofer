@@ -51,7 +51,7 @@ main {
   background-size: contain;
   height: 440px;
 }
-.side-txt{
+.side-txt {
   background: url(/midia/fundo2.jpg);
 }
 .card-text {
@@ -79,11 +79,22 @@ main {
 .vermelho {
   background-color: red;
 }
+.caroselfaleconosco {
+  height: 420px;
+  width: 600px;
+}
 
 @media (max-width: 991.98px) {
   .img-logo {
     height: 200px;
     width: 200px;
     margin: 10px 0;
+  }
+  .caroselfaleconosco {
+    height: 200px;
+    width: 280px;
+  }
+  .side-img {
+    height: 100px;
   }
 }

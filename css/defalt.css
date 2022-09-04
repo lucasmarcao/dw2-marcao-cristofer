@@ -129,7 +129,7 @@ footer {
 .label-dado,
 .input-dado {
   height: 86px;
-  font-size: 24px;
+  font-size: 20px;
   border: 2px solid black;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
@@ -142,7 +142,11 @@ footer {
 .label-dado {
   text-align: center;
   background: url(/midia/fundo1.jpg);
-  padding: 26px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  word-wrap: break-word;
+  word-break: break-all;
   opacity: 0.8;
   color: cornsilk;
   text-transform: uppercase;
@@ -271,7 +275,7 @@ code {
   bottom: 7px;
   right: 20px;
 }
-.user-name{
+.user-name {
   display: inline;
   color: gold;
   font-size: 26px;
@@ -325,8 +329,10 @@ code {
     justify-content: center;
   }
 
-  .ajuste {
-    padding: 5px 0;
+  .editar-perfil {
+    position: absolute;
+    bottom: 80px;
+    right: 20px;
   }
 
   .centerdata {

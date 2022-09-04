@@ -39,8 +39,8 @@
             Conta
           </a>
           <div class="dropdown-menu">
-            <a class="dropdown-item" href="/conta/login.html">Login</a>
-            <a class="dropdown-item" href="/conta/cadastro.html">Cadastrar</a>
+            <a class="dropdown-item" id="conta1" href="/conta/login.html">Login</a>
+            <a class="dropdown-item" id="conta2" href="/conta/cadastro.html">Cadastrar</a>
           </div>
         </li>
       </ul>
@@ -58,15 +58,15 @@
           <h5 class="card-title">Faça Login</h5>
           <form action="" class="container">
             <div class="row">
-              <input style="height: 40px;" class="col-12" type="text" placeholder="Nome de Usuário" minlength="2"
+              <input style="height: 40px;" class="col-12" id="nomeuser" type="text" placeholder="Nome de Usuário" minlength="2"
                 required>
             </div>
             <hr>
             <div class="row">
-              <input style="height: 40px;" class="col-12" type="password" placeholder="Senha" minlength="3" required>
+              <input style="height: 40px;" class="col-12" id="senhauser" type="password" placeholder="Senha" minlength="3" required>
             </div>
             <hr>
-            <button type="submit" class="btn btn-primary" style="width: 200px;"> Logar </button>
+            <button type="button" class="btn btn-primary" id="botaologar" style="width: 200px;"> Entrar </button>
           </form>
         </div>
       </div>
@@ -103,6 +103,7 @@
   ### -->
   <script src="/js/index.js"></script>
   <script src="/js/estilo.js"></script>
+  <script src="/js/conta.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
