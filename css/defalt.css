@@ -60,7 +60,7 @@ footer {
   display: block;
   padding: 8px;
   margin: 10px;
-  background: url(/midia/galaxiaxxx.gif);
+  background: url(/midia/pizza-walpaper.jpg);
   box-shadow: 10px 5px 5px black;
   border-radius: 5px;
 }
@@ -139,9 +139,15 @@ footer {
   color: rgb(60, 60, 60);
 }
 
+.label-dado:first-child {
+  border-top: 2px solid black;
+}
+.label-dado:last-child {
+  border-bottom: 2px solid black;
+}
 .label-dado {
   text-align: center;
-  background: url(/midia/fundo1.jpg);
+  background: #351e25;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -185,7 +191,6 @@ option {
 }
 .id-label {
   border: 2px solid wheat;
-  border-right: none;
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 9px;
@@ -208,11 +213,15 @@ option {
   color: #ccc;
   margin-top: 10px;
 }
-
+.btn-primary {
+  color: wheat;
+  font-size: 22px !important;
+  font-weight: bold;
+}
 .btn-primary:hover {
   transition: 0.5s !important;
   background: linear-gradient(aqua, gold) !important;
-  font-size: 20px !important;
+  font-size: 22px !important;
   font-weight: bold;
   color: black;
 }
