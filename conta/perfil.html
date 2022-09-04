@@ -39,8 +39,8 @@
             Conta
           </a>
           <div class="dropdown-menu">
-            <a class="dropdown-item" href="/conta/login.html">Login</a>
-            <a class="dropdown-item" href="/conta/cadastro.html">Cadastrar</a>
+            <a class="dropdown-item" id="conta1" href="/conta/login.html">Login</a>
+            <a class="dropdown-item" id="conta2" href="/conta/cadastro.html">Cadastrar</a>
           </div>
         </li>
       </ul>
@@ -52,7 +52,7 @@
     <div class="bolinha">
       <img class="foto-perfil" src="https://i.pinimg.com/474x/d9/4d/0e/d94d0e51ec2d07577eb64d1f1fb70b4c.jpg"
         alt="miseravel">
-      <h5 class="user-name">
+      <h5 class="user-name" id="usuarioname">
         Lucas Marcão
       </h5>
     </div>
@@ -80,7 +80,18 @@
             <hr>
             pessoas / clientes / pedidos
           </p>
-          <a href="/index.html" class="btn btn-danger">
+          <p class="card-text">
+            Informações da sua conta:
+            <hr>
+            <span id="emailinfo">
+
+            </span>
+            <br>
+            <span id="senhainfo">
+
+            </span>
+          </p>
+          <a id="botaovazar" href="/index.html" class="btn btn-danger">
             Sair da conta
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-door-open"
               viewBox="0 0 16 16">
@@ -115,6 +126,7 @@
   ### -->
   <script src="/js/index.js"></script>
   <script src="/js/estilo.js"></script>
+  <script src="/js/conta.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
