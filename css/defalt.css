@@ -196,7 +196,7 @@ option {
   padding-top: 9px;
   background: url(/midia/fundo3.jpg);
   padding-bottom: 11px;
-  font-family: cursive;
+  font-family: cursive, 'Courier New', Courier, monospace;
   color: wheat;
   margin-right: -14px;
 }
@@ -214,7 +214,7 @@ option {
   margin-top: 10px;
 }
 .btn-primary {
-  color: wheat;
+  color: green;
   font-size: 22px !important;
   font-weight: bold;
 }
