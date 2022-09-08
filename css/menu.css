@@ -1,11 +1,16 @@
 nav {
   background: url(/midia/fundo1.jpg);
+  border-bottom: 1px solid black;
 }
 
 .img-logo {
   height: 400px;
   width: 400px;
   margin: 10px 0;
+  background: url(/midia/fundo2.jpg);
+  border-radius: 25px;
+  border: 1px solid black;
+  box-shadow: 10px 5px 5px black;
 }
 .nav-img {
   height: 34px;

@@ -5,10 +5,10 @@
   font-family: "Courier New", Courier, monospace;
 }
 body {
-  background: url(/midia/fundo2.jpg);
+  background: url(/midia/mesatoalha.jpg);
 }
 main {
-  background: url(/midia/fundo1.jpg);
+  background: url(/midia/pizza-walpaper.jpg);
   width: 700px;
   min-height: 20px;
   border-left: black 1px solid;
@@ -31,6 +31,7 @@ footer {
   height: 56px;
   background: url(/midia/fundo1.jpg);
   position: static;
+  border-top: 1px solid black;
   bottom: 0;
   left: 0;
 }
