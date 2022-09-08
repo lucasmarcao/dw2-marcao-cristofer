@@ -52,19 +52,19 @@ function adcionarBotao() {
   //controla os inputs que podem ser digitados.
   //reabilita o botão Salvar.
   salvar.removeAttribute("disabled");
+  entradaId.style.color = "gray";
   // Estiliza os inputs.
-  entradaId.style.color = "white";
   entradaId.disabled = true;
   inputDado.item(0).removeAttribute("disabled");
-  inputDado.item(0).setAttribute("style", "background: limegreen;");
+  inputDado.item(0).setAttribute("style", "background: white;");
   inputDado.item(1).removeAttribute("disabled");
-  inputDado.item(1).setAttribute("style", "background: limegreen;");
+  inputDado.item(1).setAttribute("style", "background: white;");
   inputDado.item(2).removeAttribute("disabled");
-  inputDado.item(2).setAttribute("style", "background: limegreen;");
+  inputDado.item(2).setAttribute("style", "background: white;");
   inputDado.item(3).removeAttribute("disabled");
-  inputDado.item(3).setAttribute("style", "background: limegreen;");
+  inputDado.item(3).setAttribute("style", "background: white;");
   inputDado.item(4).removeAttribute("disabled");
-  inputDado.item(4).setAttribute("style", "background: limegreen;");
+  inputDado.item(4).setAttribute("style", "background: white;");
 }
 
 //alterar
@@ -83,15 +83,15 @@ function alterarBotao() {
   entradaId.style.color = "white";
   entradaId.disabled = true;
   inputDado.item(0).removeAttribute("disabled");
-  inputDado.item(0).setAttribute("style", "background: limegreen;");
+  inputDado.item(0).setAttribute("style", "background: white;");
   inputDado.item(1).removeAttribute("disabled");
-  inputDado.item(1).setAttribute("style", "background: limegreen;");
+  inputDado.item(1).setAttribute("style", "background: white;");
   inputDado.item(2).removeAttribute("disabled");
-  inputDado.item(2).setAttribute("style", "background: limegreen;");
+  inputDado.item(2).setAttribute("style", "background: white;");
   inputDado.item(3).removeAttribute("disabled");
-  inputDado.item(3).setAttribute("style", "background: limegreen;");
+  inputDado.item(3).setAttribute("style", "background: white;");
   inputDado.item(4).removeAttribute("disabled");
-  inputDado.item(4).setAttribute("style", "background: limegreen;");
+  inputDado.item(4).setAttribute("style", "background: white;");
 }
 
 // excluir
